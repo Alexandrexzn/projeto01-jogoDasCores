@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="projeto.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="tela-inicial" class="centro">
+        <h1>🎨 Jogo das Cores</h1>
+        <p>Teste sua mente! Clique em "Começar" para iniciar. e lembra os nomes estão em inglês</p>
+        <button id="botao-comecar">Começar</button>
+      </div>
+
+      <div id="game-over" class="centro hidden">
+        <h1>Game Over!</h1>
+        <p>Pontuação Final: <span id="final-score">0</span></p>
+        <button onclick="reiniciarJogo()">Jogar Novamente</button>
+        <button onclick="returnToStart()">Tela Inicial</button>
+    </div>
+
+    <div class="engrenagem" onclick="mostrarMenuMusicas()">
+        <img src="play.png" alt="Engrenagem"> musicas 
+      </div>
+
+      <div id="menuMusicas" class="menu-musicas">
+        <button onclick="tocarMusica('musica1')">Música 1</button>
+        <button onclick="tocarMusica('musica2')">Música 2</button>
+        <button onclick="tocarMusica('musica3')">Música 3</button>
+      </div>
+
+    
+
+      <div id="settings-icon" class="gear-icon"><i class="fas fa-cog"></i></div>
+      <div id="settings-menu" class="dropdown-menu">
+          <ul>
+              <li><a href="#" onclick="returnToStart()">Tela Inicial</a></li>
+              <li><a href="#" onclick="increaseDifficulty()">Mudar Dificuldade</a></li>
+              <li><a href="#" id="botao-portugues">Mudar para Português</a></li>
+              <li><a href="#" id="botao-tempo">Ajustar Tempo</a></li>
+          </ul>
+          <div id="tempo-slider" class="hidden">
+              <label for="tempo-range">Tempo (segundos): <span id="tempo-valor">6</span></label>
+              <input type="range" id="tempo-range" min="3" max="10" value="6" aria-label="Ajustar tempo do temporizador">
+          </div>
+      </div>
+
+
+    <div id="area-jogo" class="centro" style="display: none;">
+    <p>Escolha a cor: <span id="colorName"></span></p>
+    <div id="buttons"></div>
+    <div id="color-lines-container"></div> 
+    <p>Pontuação: <span id="score">0</span></p>
+    <p>Tempo restante: <span id="timer">10</span> segundos</p>
+  </div>
+
+  <audio id="musica1" src="Tamlin - Alive ｜ Disco ｜ NCS - Copyright Free Music.mp3"></audio>
+  <audio id="musica2" src="Spektrem - Shine ｜ Progressive House ｜ NCS - Copyright Free Music.mp3"></audio>
+  <audio id="musica3" src="Cartoon, Jéja - Why We Lose (feat. Coleman Trapp) ｜ DnB ｜ NCS - Copyright Free Music.mp3"></audio>
+
+
+  <script>
+    const audio = document.getElementById("meuAudio");
+    const botao = document.getElementById("botaoPlay");
+
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        botao.textContent = "Pause";
+      } else {
+        audio.pause();
+        botao.textContent = "Play";
+      }
+    }
+  </script>
+
+ 
+
+  <div id="container"></div>
+  <script src="projeto.js"></script>
+</body>
+</html>

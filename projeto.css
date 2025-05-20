@@ -1,0 +1,450 @@
+
+/* Estilo do corpo da página */
+body {
+    text-align: center; /* Alinha o texto ao centro */
+    font-family: Arial, sans-serif; /* Define a fonte como Arial ou sans-serif */
+    margin-top: 50px; /* Adiciona uma margem superior de 50px */
+}
+
+/* Estilo dos botões de cor */
+.colorButton {
+    width: 100px; /* Define a largura do botão */
+    height: 100px; /* Define a altura do botão */
+    margin: 10px; /* Adiciona uma margem de 10px em torno do botão */
+    display: inline-block; /* Exibe os botões como blocos em linha */
+    cursor: pointer; /* Define o cursor como pointer (mão) ao passar o mouse */
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 24px; /* Define o tamanho da fonte */
+}
+
+/* Estilo específico para o nome da cor */
+#colorName {
+    font-weight: bold; /* Torna o texto em negrito */
+    font-size: 32px; /* Define o tamanho da fonte */
+    text-transform: uppercase; /* Transforma o texto para letras maiúsculas */
+}
+
+/* Estilo do corpo da página com imagem de fundo */
+body {
+    background-image: url('abstract-surface-textures-white-concrete-stone-wall.jpg'); /* Substitua pelo caminho real da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    margin: 0; /* Remove qualquer margem */
+    padding: 0; /* Remove qualquer padding */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    background-attachment: fixed; /* Fixa a imagem de fundo ao rolar a página */
+}
+
+/* Estilo geral do corpo da página */
+body {
+    margin: 0; /* Remove qualquer margem */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse a área visível */
+    background-color: #f0f0f0; /* Define uma cor de fundo cinza claro */
+}
+
+/* Estilo para a área do jogo */
+#gameArea {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+/* Estilo para a área de informações */
+#info {
+    margin-bottom: 20px; /* Adiciona margem inferior */
+}
+
+/* Estilo para o parágrafo dentro do jogo */
+p {
+    font-size: 24px; /* Define o tamanho da fonte */
+    color: #ffffff; /* Define a cor do texto como branca */
+    text-shadow: 1px 1px 2px #000; /* Adiciona uma sombra ao texto */
+}
+
+/* Estilo para o marcador de pontos */
+#score {
+    font-weight: bold; /* Torna o texto em negrito */
+}
+
+/* Estilo para o nome da cor */
+#colorName {
+    font-weight: bold; /* Torna o texto em negrito */
+    font-size: 32px; /* Define o tamanho da fonte */
+    text-transform: uppercase; /* Transforma o texto para letras maiúsculas */
+}
+
+/* Estilo para a bola */
+.ball {
+    width: 30px; /* Define a largura da bola */
+    height: 30px; /* Define a altura da bola */
+    border-radius: 50%; /* Torna a bola redonda */
+    position: absolute; /* Posiciona a bola de forma absoluta */
+    top: 0; /* Posiciona a bola no topo */
+    cursor: pointer; /* Muda o cursor para pointer */
+    transition: transform 0.2s; /* Adiciona uma transição suave para o movimento */
+}
+
+/* Efeito ao passar o mouse sobre a bola */
+.ball:hover {
+    transform: scale(1.2); /* Aumenta o tamanho da bola quando o mouse passa sobre ela */
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-family: 'Uncial Antiqua', cursive; /* Define a fonte personalizada */
+    font-size: 36px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    color: #ffffff; /* Define a cor do texto como branca */
+    margin-top: 20px; /* Adiciona margem superior */
+    text-shadow: 2px 2px 4px #000000; /* Adiciona sombra ao texto */
+}
+
+/* Estilo do corpo com fundo mágico */
+body {
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Remove o padding */
+    height: 100vh; /* Define a altura da página para 100% da altura da janela */
+    font-family: 'Uncial Antiqua', cursive; /* Define a fonte personalizada */
+    background-image: url('beba742e-e7a7-4c08-a685-83c52d1fc028.jpg'); /* Define o fundo da página */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color: white; /* Define a cor do texto como branca */
+    display: flex; /* Usa Flexbox para layout */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para a área central com fundo semi-transparente */
+.centro {
+    background: rgba(0, 0, 0, 0.6); /* Fundo escuro com transparência */
+    padding: 40px; /* Adiciona padding interno */
+    border-radius: 20px; /* Arredonda as bordas */
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3); /* Adiciona uma sombra suave */
+    color: white; /* Define a cor do texto como branca */
+    text-align: center; /* Centraliza o texto */
+    font-family: 'Segoe UI', sans-serif; /* Define a fonte */
+    max-width: 600px; /* Define a largura máxima */
+    margin: auto; /* Centraliza o bloco */
+    backdrop-filter: blur(5px); /* Adiciona efeito de desfoque no fundo */
+    animation: fadeIn 1s ease forwards; /* Animação de fade-in */
+    transform: translateY(0); /* Define a posição inicial para animação */
+}
+
+/* Estilo para o título dentro da área central */
+.centro h1 {
+    font-size: 48px; /* Define o tamanho da fonte */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+    text-shadow: 0 0 10px #00ffff; /* Adiciona sombra no texto */
+}
+
+/* Estilo para o parágrafo dentro da área central */
+.centro p {
+    font-size: 18px; /* Define o tamanho da fonte */
+    margin-bottom: 30px; /* Adiciona margem inferior */
+    color: #ccc; /* Define a cor do texto como cinza claro */
+}
+
+/* Estilo para o botão de começar */
+.centro button {
+    font-size: 18px; /* Define o tamanho da fonte */
+    padding: 12px 30px; /* Adiciona padding ao botão */
+    background: linear-gradient(90deg, #00ffff, #0077ff); /* Define o fundo com gradiente */
+    border: none; /* Remove a borda */
+    border-radius: 12px; /* Arredonda as bordas */
+    color: white; /* Define a cor do texto como branca */
+    cursor: pointer; /* Muda o cursor para pointer */
+    transition: transform 0.2s ease, box-shadow 0.3s ease; /* Define transições suaves */
+    box-shadow: 0 0 12px #ffffff; /* Adiciona sombra ao botão */
+}
+
+/* Efeito de hover para o botão */
+.centro button:hover {
+    transform: scale(1.07); /* Aumenta o botão ao passar o mouse */
+    box-shadow: 0 0 20px #ffffff; /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Começa invisível */
+        transform: translateY(-30px); /* Começa acima */
+    }
+    to {
+        opacity: 1; /* Torna-se visível */
+        transform: translateY(0); /* Vai para a posição final */
+    }
+}
+
+/* Estilo para o container dos botões */
+#buttons {
+    margin-top: 20px; /* Adiciona margem superior */
+    display: flex; /* Usa Flexbox para layout */
+    justify-content: center; /* Centraliza os botões */
+    flex-wrap: wrap; /* Permite que os botões quebrem linha */
+    gap: 15px; /* Define o espaçamento entre os botões */
+    max-width: 600px; /* Define a largura máxima */
+}
+
+/* Estilo para cada botão de cor */
+.color-button {
+    width: 60px; /* Define a largura do botão */
+    height: 60px; /* Define a altura do botão */
+    border: none; /* Remove a borda */
+    border-radius: 10px; /* Arredonda as bordas */
+    cursor: pointer; /* Muda o cursor para pointer */
+}
+
+/* Estilo para o container das linhas de cores */
+#color-lines-container {
+    display: flex; /* Exibe as linhas de forma flexível */
+    flex-direction: column; /* Organiza as linhas em coluna */
+    margin-top: 20px; /* Adiciona margem superior */
+    gap: 10px; /* Define o espaçamento entre as linhas */
+    justify-content: center; /* Centraliza as linhas */
+}
+
+/* Estilo para cada linha de cores */
+.color-line {
+    display: flex; /* Exibe as cores em linha */
+    justify-content: center; /* Centraliza as cores */
+    gap: 15px; /* Define o espaçamento entre as cores */
+}
+
+/* Estilo para o texto de Game Over */
+#game-over {
+    text-align: center; /* Centraliza o texto */
+    font-size: 36px; /* Define o tamanho da fonte */
+    color: red; /* Define a cor do texto como vermelha */
+    font-weight: bold; /* Torna o texto em negrito */
+    margin-top: 20px; /* Adiciona margem superior */
+    display: none; /* Inicialmente escondido */
+}
+
+/* Estilo para o timer */
+#timer {
+    font-size: 1em; /* Define o tamanho da fonte */
+    color: rgb(255, 74, 50); /* Define a cor do timer */
+}
+
+/* Efeito de transição para o timer */
+#timer {
+    transition: color 0.5s ease; /* Transição suave para a cor */
+}
+
+/* Estilo para o timer quando o tempo estiver baixo */
+#timer.low-time {
+    color: red; /* Muda a cor para vermelho quando o tempo estiver baixo */
+}
+
+/* Estilo para o container principal */
+#container {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    gap: 10px; /* Define o espaçamento entre os elementos */
+    align-items: center; /* Centraliza os itens */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+/* Estilo para cada linha */
+.linha {
+    display: flex; /* Exibe os blocos em linha */
+    gap: 10px; /* Define o espaçamento entre os blocos */
+}
+
+/* Estilo para os blocos interativos */
+.bloco {
+    width: 80px; /* Define a largura do bloco */
+    height: 80px; /* Define a altura do bloco */
+    border-radius: 10px; /* Arredonda as bordas */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Adiciona sombra ao bloco */
+    cursor: pointer; /* Muda o cursor para pointer */
+    transition: transform 0.2s; /* Define transição suave para a transformação */
+}
+
+/* Efeito de hover para os blocos */
+.bloco:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do bloco ao passar o mouse */
+}
+
+.gear-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dropdown-menu {
+    position: fixed;
+    top: 90px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 200px;
+    display: none;
+    z-index: 999;
+    animation: slideIn 0.3s ease forwards;
+}
+
+.dropdown-menu.active {
+    display: block;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+}
+
+.dropdown-menu ul li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.dropdown-menu ul li a:hover {
+    color: #00ffff;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#color-lines-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.color-line {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.colorButton {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Estilo do Quadrado */
+.quadrado {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+    transition: transform 0.2s;
+  }
+  
+  .quadrado:hover {
+    transform: scale(1.05);
+  }
+  
+  .azul {
+    background-color: blue;
+  }
+  
+  .vermelho {
+    background-color: red;
+  }
+  
+  .verde {
+    background-color: green;
+  }
+  
+  /* Estilo da Engrenagem */
+  .engrenagem {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+  
+  .engrenagem img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Estilo do Menu de Músicas */
+  .menu-musicas {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+  }
+  
+  .menu-musicas button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .menu-musicas button:hover {
+    background-color: #555;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#menuMusicas {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
